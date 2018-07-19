@@ -11,6 +11,11 @@ export default {
         )
     })
   },
+  components: {
+    Abc,
+    Header,
+    Title
+  },
   props: {
     value: Boolean,
     showCancel: Boolean,
@@ -95,7 +100,7 @@ export default {
       }
     },
     value: {
-      handler: function (val) {
+      handler: function shit (val) {
         this.show = val
       },
       immediate: true

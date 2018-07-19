@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./built/",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowJs": false,
+    "lib": ["es7", "dom"]
+  },
+  "include": [
+    "./lib/**/*.ts",
+    "./test/**/*.ts"
+  ]
+}

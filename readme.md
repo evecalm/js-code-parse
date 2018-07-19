@@ -11,23 +11,23 @@ const result = parser.parse(codeString)
 ```
 
 structure of result:
-```json
-[{
-    "indentify": "export default ",
-    "type": "object",
-    "raw": "{xxxxxxx}",
-    "rawWrapper": "export default {xxxxxxx}",
-    "children": [{
-      "indentify": "name",
-      "type": "keyVal",
-      "raw": "'actionsheet'",
-      "rawWrapper": "\n  name: 'actionsheet'"
-    },...]
-},...]
+```ts
+// parse result array
+type CodeParseResult = Array<CodeParseResultItem>
+
+// parse result item
+interface CodeParseResultItem {
+  indentify: string
+  raw: string
+  type: CodeBlockType,
+  value: string
+  valueType: CodeBlockType
+  children?: Array<CodeParseResultItem>
+}
 ```
 
 ## Sample
-you may view <./test/result.js> to review the parsing result of `sample-code.js`, or just `cd test && node test.js` to try yourself.
+you may view <./test/result.js> to review the parsing result of `sample-code.js`, or just `cd test && ts-node --type-check test.ts` to try yourself.
 
 
 sss 

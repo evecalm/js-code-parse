@@ -5,5 +5,8 @@
   "main": "lib/indexjs",
   "repository": "https://github.com/evecalm/js-code-parse.git",
   "author": "Saiya <evecalm@live.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.5.2"
+  }
 }
