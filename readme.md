@@ -24,4 +24,10 @@ structure of result:
       "rawWrapper": "\n  name: 'actionsheet'"
     },...]
 },...]
-````
+```
+
+## Sample
+you may view <./test/result.js> to review the parsing result of `sample-code.js`, or just `cd test && node test.js` to try yourself.
+
+
+sss 
