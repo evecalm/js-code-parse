@@ -1,0 +1,9 @@
+{
+  "name": "js-code-parse",
+  "version": "0.1",
+  "description": "a simple js code parser for demo",
+  "main": "lib/indexjs",
+  "repository": "https://github.com/evecalm/js-code-parse.git",
+  "author": "Saiya <evecalm@live.com>",
+  "license": "MIT"
+}
